@@ -1,4 +1,7 @@
-/* Navigation */
+
+html{
+    font-size: 62.5%;
+}
 #navbar {
     flex-direction: column;
 }
@@ -7,4 +10,7 @@
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
+}
+.box{
+    flex-direction: column;
 }
