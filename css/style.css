@@ -34,30 +34,31 @@ html {
 }
 .logo {
   color: white;
-  font-size: 35px;
-  letter-spacing: 1px;
+  font-size: 2.5rem;
+  letter-spacing: 0.063rem;
   cursor: pointer;
   margin-left: 100px;
 }
 span {
   color: #f9004d;
+  font-size: 2.5rem;
 }
 #navbar ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 0.625rem 1.563rem;
 }
 #navbar ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1.2rem;
   text-transform: capitalize;
   transition: color 0.5s;
-  padding: 4px;
+  padding: 0.25rem;
 }
 #navbar ul {
-  margin-left: 200px;
+  margin-left: 12.5rem;
 }
 #navbar ul li a:hover {
   color: #f9004d;
@@ -66,64 +67,64 @@ span {
   position: absolute;
   top: 50%;
   left: 8%;
-
   transform: translateY(-50%);
 }
 h1 {
   color: white;
-  margin: 20px 0px 20px;
-  font-size: 75px;
+  margin: 1.25rem 0rem 1.25rem;
+  font-size: 4.5rem;
+}
+#kn {
+  color: #f9004d;
+  font-size: 4.5rem;
 }
 h3 {
   color: white;
-  font-size: 25px;
-  margin-bottom: 50px;
+  font-size: 1.5rem;
+  margin-bottom: 3.125rem;
 }
 h4 {
   color: #fff;
-  letter-spacing: 2px;
-  font-size: 20px;
+  letter-spacing: 0.125rem;
+  font-size: 1.25rem;
 }
 .okk form {
-  width: 380px;
+  width: 23.75rem;
   max-width: 100%;
   position: relative;
 }
 .okk form input:first-child {
   display: inline-block;
   width: 100%;
-  padding: 14px 130px 14px 15px;
-  border: 2px solid #f9004d;
+  padding: 0.875rem 8.125rem 0.875rem 0.938rem;
+  border: 0.125rem solid #f9004d;
   outline: none;
-  border-radius: 30px;
+  border-radius: 1.875rem;
 }
 .okk form input:last-child {
   position: absolute;
   display: inline-block;
   border: none;
-  padding: 10px 30px;
-  border-radius: 30px;
+  padding: 0.625rem 1.875rem;
+  border-radius: 1.875rem;
   background-color: #f9004d;
   color: white;
-  box-shadow: 0px 0px 15px #858585;
-  top: 6px;
-  right: 6px;
+  box-shadow: 0rem 0rem 15rem #858585;
+  top: 0.375rem;
+  right: 0.375rem;
 }
 
 .about {
   width: 100%;
-  padding: 100px 0px;
+  padding: 6.25rem 0rem;
   background-color: #191919;
 }
-.about img {
-  height: auto;
-  width: 430px;
-}
+
 .about-text {
-  width: 550px;
+  width: 34.375rem;
 }
 .main {
-  width: 1130px;
+  width: 70.625rem;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -131,46 +132,46 @@ h4 {
   justify-content: space-around;
 }
 .main i {
-  font-size: 400px;
+  font-size: 30rem;
   display: block;
   text-align: center;
-  margin: 25px 0px;
+  margin: 1.563rem 0rem;
   color: #f9004d;
-  padding-right: 50px;
+  padding-right: 3.125rem;
 }
 .about-text h2 {
   color: white;
-  font-size: 75px;
+  font-size: 4.688rem;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .about-text h5 {
   color: white;
-  letter-spacing: 2px;
-  font-size: 22px;
-  margin-bottom: 25px;
+  letter-spacing: 0.125rem;
+  font-size: 1.375rem;
+  margin-bottom: 1.563rem;
   text-transform: capitalize;
 }
 .about-text p {
   color: #fcfc;
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  margin-bottom: 45px;
+  letter-spacing: 0.063rem;
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  margin-bottom: 2.813rem;
 }
 button {
   background-color: #f9004d;
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
   font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
+  padding: 0.813rem 1.875rem;
+  border-radius: 1.875rem;
   transition: 0.4s;
 }
 button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 0.125rem solid #f9004d;
   cursor: pointer;
 }
 
@@ -182,79 +183,79 @@ button:hover {
 .skills {
   background-color: #191919;
   width: 100%;
-  padding: 100px 0px;
+  padding: 6.25rem 0rem;
 }
 .title h2 {
   color: white;
-  font-size: 75px;
-  width: 1130px;
-  margin: 30px auto;
+  font-size: 4.688rem;
+  width: 70.625rem;
+  margin: 1.875rem auto;
   text-align: center;
 }
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  min-height: 25rem;
 }
 .card {
-  height: 365px;
-  width: 335px;
-  padding: 20px 35px;
+  height:22.813rem;
+  width: 20.938rem;
+  padding: 1.25rem 2.188rem;
   background: #191919;
-  border-radius: 20px;
-  margin: 15px;
+  border-radius: 1.25rem;
+  margin: 0.938rem;
   position: relative;
   overflow: hidden;
   text-align: center;
 }
 .skills .card {
-  height: 365px;
-  width: 335px;
-  padding: 20px 35px;
+  height: 22.813rem;
+  width:20.938rem;
+  padding: 1.25rem 2.188rem;
   background: #101010;
-  border-radius: 20px;
-  margin: 15px;
+  border-radius: 1.25rem;
+  margin: 0.938rem;
   position: relative;
   overflow: hidden;
   text-align: center;
 }
 .card i {
-  font-size: 50px;
+  font-size:3.125rem;
   display: block;
   text-align: center;
-  margin: 25px 0px;
+  margin: 1.563rem 0rem;
   color: #f9004d;
 }
 h5 {
   color: white;
-  font-size: 23px;
-  margin-bottom: 15px;
+  font-size:1.438rem;
+  margin-bottom: 0.938rem;
 }
 .pra p {
   color: #fcfc;
-  font-size: 16px;
-  line-height: 27px;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  line-height: 1.688rem;
+  margin-bottom: 1.563rem;
 }
 .card .button {
   background-color: #f9004d;
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
   font-weight: bold;
-  padding: 9px 22px;
-  border-radius: 30px;
+  padding: 0.563rem 1.375rem;
+  border-radius: 1.875rem;
   transition: 0.4s;
 }
 .card .button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border:0.125rem solid #f9004d;
   cursor: pointer;
 }
 .contact-me {
   width: 100%;
-  height: 290px;
+  height: 18.125rem;
   background: #101010;
   display: flex;
   align-items: center;
@@ -263,29 +264,29 @@ h5 {
 }
 .contact-me p {
   color: white;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 .contact-me .button-two {
   background-color: #f9004d;
   color: white;
   text-decoration: none;
-  border: 2px solid transparent;
+  border:0.125rem solid transparent;
   font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
+  padding: 0.813rem 1.875rem;
+  border-radius: 1.875rem;
   transition: 0.4s;
 }
 .contact-me .button-two:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 0.125rem solid #f9004d;
   cursor: pointer;
 }
 footer {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background: #191919;
   display: flex;
   flex-direction: column;
@@ -293,33 +294,33 @@ footer {
   justify-content: center;
 }
 footer p:nth-child(1) {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: bold;
 }
 footer p:nth-child(2) {
   color: white;
-  font-size: 17px;
-  width: 500px;
+  font-size: 1.063rem;
+  width: 31.25rem;
   text-align: center;
-  line-height: 26px;
+  line-height: 1.625rem;
 }
 .social {
   display: flex;
 }
 .social a {
-  width: 45px;
-  height: 45px;
+  width: 2.813rem;
+  height: 2.813rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f9004d;
   border-radius: 50%;
-  margin: 22px 10px;
+  margin: 1.375rem 0.625rem;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .social a:hover {
   transform: scale(1.3);
@@ -328,6 +329,6 @@ footer p:nth-child(2) {
 .end {
   position: absolute;
   color: #f9004d;
-  bottom: 35px;
-  font-size: 14px;
+  bottom: 2.188rem;
+  font-size: 0.875rem;
 }
